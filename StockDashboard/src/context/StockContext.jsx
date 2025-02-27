@@ -1,6 +1,6 @@
 import { createContext, useContext, useState } from "react";
 
-export const StockContext = createContext(); // ✅ Ensure it's exported
+export const StockContext = createContext(); // Ensure it's exported
 
 export const useStock = () => useContext(StockContext);
 
